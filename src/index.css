@@ -1,0 +1,20 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  --branco-site: hsl(0, 0%, 100%);
+  --stone-100-site: hsl(30, 54%, 90%);
+  --stone-150-site: hsl(30, 18%, 87%);
+  --stone-600-site: hsl(30, 10%, 34%);
+  --stone-900-site: hsl(24, 5%, 18%);
+  --marrom-800-site: hsl(14, 45%, 36%);
+  --rose-800-site: hsl(332, 51%, 32%);
+  --rose-50-site: hsl(330, 100%, 98%);
+}
