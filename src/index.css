@@ -9,6 +9,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Outfit", serif;
 
   --branco-site: hsl(0, 0%, 100%);
   --stone-100-site: hsl(30, 54%, 90%);
@@ -20,5 +21,13 @@
   --rose-50-site: hsl(330, 100%, 98%);
 
   --font-young: "Young Serif", serif;
-  --font-outfit: "Outfit", serif;
+
+  ul, ol{
+    list-style: revert;
+  }
+
+  b{
+    color: var(--stone-600-site);
+    font-weight: 600;
+  }
 }
